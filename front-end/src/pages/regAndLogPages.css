@@ -1,0 +1,110 @@
+@import "../../node_modules/materialize-css/dist/css/materialize.min.css";
+
+
+
+
+p{
+    cursor: pointer;
+    size: auto;
+}
+a{
+    cursor: pointer;
+}
+a.txt{
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 20px 60px 40px 65px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background:#bdbdbd ;
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    transition: .3s;
+}
+a.txt:hover {
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(0,0,0,.1);
+    color: white;
+    transform: translateY(-7px);
+}
+
+a.txt1 {
+    font-weight: bold;
+}
+
+a.txt2{
+    margin-left: 85px;
+    margin-bottom: 10px;
+}
+
+span.ak{
+    margin:20px 20px 20px 30px;
+}
+span.card-title{
+    font-size: 25px!important;
+    margin: 20px 20px 8px 20px;
+}
+.card-content{
+    padding-top: 0px!important;
+    margin-left:50px!important; ;
+}
+
+.widget {
+    background-size: auto;
+    padding: 5px 30px 20px;
+    background: white;
+    float:left;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.widget-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #222;
+    font-size: 16px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    border-left: 2px solid #9e9e9e;
+}
+.widget-list {
+    padding: 0;
+    list-style: none;
+}
+.widget-list a:before {
+    content: "\2014";
+    margin-right: 14px;
+}
+.widget-list a {
+    text-decoration: none;
+    outline: none;
+    display: block;
+    padding: 6px 0;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #444;
+    transition: .3s linear;
+}
+.widget-list a:hover {color: #9e9e9e;}
+
+.kep-login-facebook{
+    font-size: 25px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50% !important;
+    margin: 5px;
+}

@@ -1,0 +1,58 @@
+@import "../../../node_modules/materialize-css/dist/css/materialize.min.css";
+
+@media (max-device-width: 400px) {
+    .collection{
+        letter-spacing: 1px;
+        border:0px;
+    }
+    .collection-item{
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        margin: 20px!important;
+        border-radius: 10px;
+        width: 50%;
+    }
+    table{
+        background-color: #ffebee;
+        padding: 20px 30px;
+        margin: 30px;
+        width: 30%;
+    }
+}
+.collection{
+    letter-spacing: 1px;
+    border:0px;
+}
+.collection-item{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 20px!important;
+    border-radius: 10px;
+}
+.collection-header{
+    position: relative;
+    letter-spacing: 2px;
+    color: #222;
+    font-size: 16px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    text-decoration-line: underline;
+}
+table{
+    background-color: #ffebee;
+    padding: 20px 30px;
+    margin: 30px;
+}
+
+.collection-theme{
+    font-style: italic;
+}
+a{
+    color: #4e342e;
+}
+
+p.par{
+    font-style: italic;
+}
+
+p.edit{
+    text-decoration-line: underline;
+}

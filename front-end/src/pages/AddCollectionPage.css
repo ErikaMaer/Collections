@@ -1,0 +1,19 @@
+@import "../../node_modules/materialize-css/dist/css/materialize.min.css";
+
+li.header-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: #222;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px grey, 0 0 3em black;
+}
+
+.input-field {
+    width:80%;
+}
+
+.input-field .prefix.active{
+    color:#26a69a;
+}

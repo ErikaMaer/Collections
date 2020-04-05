@@ -1,0 +1,30 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+.btn-toolbar{
+margin-top: 30px;
+ margin-left: 30px;
+}
+
+
+.btn{
+background-color: black;
+ text-transform: none;
+ border-radius: 25px;
+ margin: 0 10px 0 0;
+ box-shadow: 0 8px 15px rgba(0,0,0,.4);
+}
+.btn:hover{
+ background: #424242;
+ box-shadow: 0 15px 20px rgba(0,0,0,.1);
+ transform: translateY(-1px);
+}
+.btn:focus{
+ background: #424242;
+}
+.highlight{
+ border-radius: 15px;
+ background-position: center;
+}
+[type="checkbox"]+span:not(.lever):before{
+ margin: 10px 0 10px 20px;
+}

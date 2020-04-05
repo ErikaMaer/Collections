@@ -1,0 +1,27 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+
+@media (max-device-width: 800px) {
+    nav{
+        background-color:#000000 !important;
+        box-shadow: 0 0 15px rgba(0,0,0,0.7);
+        width:55%;
+    }
+}
+
+.row{
+   size: auto;
+}
+
+nav{
+    background-color:#000000 !important;
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+.nav-wrapper{
+    background-color:#000000 !important;
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+
+.card {
+    background-size: auto;
+}
